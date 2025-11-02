@@ -1,0 +1,5 @@
+__CURRENT_FILE=${(%):-%N}
+__CURRENT_DIR=$(realpath $(dirname $__CURRENT_FILE))
+
+SHULKER_GIT_EXTENSION_DIR=$__CURRENT_DIR
+autoload-dir "$SHULKER_GIT_EXTENSION_DIR/functions"
