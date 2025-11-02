@@ -4,4 +4,4 @@ hello:
     @echo "Hello from shulker-git-extension justfile!"
 
 link:
-    echo "Link for git-ext (todo)"
+    source {{justfile_directory()}}/scripts/link.zsh
