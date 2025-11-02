@@ -38,16 +38,19 @@ cm = commit -m
 sw = switch
 swc = switch -c
 
-
+#! scripts runner
 ext = "!zsh -c 'git-$0 $@'"
+
+#! extension scripts
+at = "!git ext at"
+fast-commit = "!git ext fast-commit"
+fast-push = "!git ext fast-push"
+fast-sync = "!git ext fast-sync"
 hello = "!git ext hello"
-
-
 
 #! commands
 repo = "!zsh -c 'repo $0 $@'"
 #! commands
-at = "!git repo at"
 created = "!git repo created"
 created-count = "!git repo created-count"
 current-user = "!git repo current-user"
@@ -55,8 +58,6 @@ current-user-email = "!git repo current-user-email"
 current-user-name = "!git repo current-user-name"
 deleted = "!git repo deleted"
 deleted-count = "!git repo deleted-count"
-fast-commit = "!git repo fast-commit"
-fast-push = "!git repo fast-push"
 github-open = "!git repo github-open"
 me = "!git repo me"
 modified = "!git repo modified"
