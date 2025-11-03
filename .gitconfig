@@ -49,6 +49,7 @@ fast-sync = "!git ext fast-sync"
 fast-sync-staged = "!git ext fast-sync-staged"
 fast-sync-full = "!git ext fast-sync-full"
 stage-all = "!git ext stage-all"
+status-simple = "!git ext status-simple"
 hello = "!git ext hello"
 
 #! commands
@@ -69,14 +70,12 @@ root = "!git repo root"
 save = "!git repo save"
 staged = "!git repo staged"
 staged-count = "!git repo staged-count"
-stage-all = "!git repo stage-all"
 stage-modified = "!git repo stage-modified"
 submit = "!git repo submit"
 submit-all = "!git repo submit-all"
 sync = "!git repo sync"
 unstaged = "!git repo unstaged"
 unstaged-count = "!git repo unstaged-count"
-
 
 
 #! profile
