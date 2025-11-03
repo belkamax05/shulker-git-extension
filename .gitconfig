@@ -46,6 +46,9 @@ at = "!git ext at"
 fast-commit = "!git ext fast-commit"
 fast-push = "!git ext fast-push"
 fast-sync = "!git ext fast-sync"
+fast-sync-staged = "!git ext fast-sync-staged"
+fast-sync-full = "!git ext fast-sync-full"
+stage-all = "!git ext stage-all"
 hello = "!git ext hello"
 
 #! commands
