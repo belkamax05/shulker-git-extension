@@ -4,4 +4,4 @@ __CURRENT_DIR=$(realpath $(dirname $__CURRENT_FILE))
 GITSTATUS_LOG_LEVEL=DEBUG
 
 SHULKER_GIT_EXTENSION_DIR=$__CURRENT_DIR
-autoload-dir "$SHULKER_GIT_EXTENSION_DIR/functions"
+# autoload-dir "$SHULKER_GIT_EXTENSION_DIR/functions"
