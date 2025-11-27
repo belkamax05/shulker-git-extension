@@ -1,1 +1,0 @@
-link-file $SHULKER_GIT_EXTENSION_DIR/.gitconfig ~/.gitconfig
